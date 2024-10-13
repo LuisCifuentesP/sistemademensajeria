@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+  color: #000000;
+  width: 100%;
+  height: 2.7vh;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+p{
+  width:200%;
+  padding-right: 3rem;
+}
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-text h3{
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+
+.container{
+  display:flex;
+}
+
+.aside{
+  width:30%;
+  height: 100vh;
+}
+
+.image img{
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E8EBE4;
+  padding:0.7rem 1.25rem ;
+}
+
+.first {
+  display: flex;
+  margin-left: 10px;
+}
+
+
+.first-text h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-left: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.first-text p{
+  padding-left: 0.5rem;
+}
+
+.first-text p{
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #828485;
+}
+
+.icons{
+  display: flex;
+  color: #828485;
+}
+
+.fa-regular{
+  margin-right: 0.7rem;
+}
+
+button{
+  background-color: #8868d3;
+  color: #E8EBE4;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: none;
+}
+
+button:hover{
+cursor: pointer
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  padding: 3rem ;
+  border-bottom: 1px solid #E8EBE4;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color:#f1f1f1;
+}
+
+.users{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: solid 2px #E8EBE4 ;
+  padding: 15px 35px;
+}
+
+.maintext h2{
+  color: #2e3436;
+  font-size: 1rem;
+}
+
+strong{
+  color: black;
+}
+
+.hand{
+ display: flex;
+ align-items:center;
+ justify-content: center;
+ padding: 15px;
+ width: 18%;
+ border-radius: 10%;
+}
+
+
+.maintext > h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.maintext > h2 {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: 1px;
+  line-height:1.65
+}
+
+.subtext {
+  width: 55%;
+}
+.subtext > p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
