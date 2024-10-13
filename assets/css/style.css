@@ -158,12 +158,3 @@ strong{
   line-height:1.65
 }
 
-.subtext {
-  width: 55%;
-}
-.subtext > p {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
